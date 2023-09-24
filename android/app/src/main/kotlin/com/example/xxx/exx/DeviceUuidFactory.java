@@ -64,6 +64,13 @@ public class DeviceUuidFactory {
     }
 
 
-
-
 }
+
+//import  java.util.UUID
+//set the android.permission.READ_PRIVILEGED_PHONE_STATE
+//input DeviceUuidFactory.java file
+
+// how call the class
+// DeviceUuidFactory deviceUuidFactory = new DeviceUuidFactory(this);
+//         UUID id = deviceUuidFactory.getDeviceUuid();
+//  return String.valueOf(id);
