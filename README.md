@@ -1,16 +1,17 @@
-# exx
+# Flutter Get Android Device Id
 
-A new Flutter project.
+Flutter Dart ကနေ Kotlin File ထဲကနေ တစ်ဆင့် Java Class ကိုခေါ်ပြီး Android ရဲ့ Id ကို ယူထားတာဖြစ်ပါတယ်။
+ဒီ Java class ကတော့ အရင် Sketchware မှာသုံးထားခဲ့တာပါ။ သို့ပေမဲ့ flutter ကနေလည်း 
+ဒီစနစ်ကို ရနိုင်ဖို့ Native အပိုင်းက device id data ကို ဖတ်နိုင်အောင် ဖန်တီးလိုက်တာပဲ ဖြစ်ပါတယ်။ 
+Date - 24.09.2023
 
-## Getting Started
+## စတင်သုံးမယ်ဆိုရင် 
+- main.dart
+- MainActivity.kt
+- Dont forget to added DeviceUuidFactory according to your app package
+- <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
 
-This project is a starting point for a Flutter application.
+- [Reference 1](https://www.youtube.com/watch?v=AoO32Yh1Y90)
+- [Reference 2](https://www.youtube.com/watch?v=j0cy_Z6IG_c)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
