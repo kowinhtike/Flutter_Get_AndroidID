@@ -9,7 +9,7 @@ Date - 24.09.2023
 - main.dart
 - MainActivity.kt
 - Dont forget to added DeviceUuidFactory according to your app package
-- <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+- uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
 
 - [Reference 1](https://www.youtube.com/watch?v=AoO32Yh1Y90)
 - [Reference 2](https://www.youtube.com/watch?v=j0cy_Z6IG_c)
